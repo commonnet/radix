@@ -16,10 +16,9 @@ import (
 	"strconv"
 	"sync"
 
-	errors "golang.org/x/xerrors"
-
-	"github.com/mediocregopher/radix/v3/internal/bytesutil"
+	"github.com/mediocregopher/radix/v3/bytesutil"
 	"github.com/mediocregopher/radix/v3/resp"
+	errors "golang.org/x/xerrors"
 )
 
 var delim = []byte{'\r', '\n'}
